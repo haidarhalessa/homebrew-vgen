@@ -1,7 +1,7 @@
 class Vgen < Formula
   desc "A CLI tool to generate Vapor boilerplate components"
   homepage "https://github.com/haidarhalessa/vapor-generator"
-  url "https://github.com/haidarhalessa/vapor-generator/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/haidarhalessa/vapor-generator/archive/refs/tags/1.0.0.tar.gz"
   sha256 "eb2117978db071293b2fba5cbec2963faac030389b1af0759cdb01532835c7ee"
   license "MIT"
   
