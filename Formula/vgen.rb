@@ -13,11 +13,11 @@ class Vgen < Formula
     system "swift", "build", "--disable-sandbox", "-c", "release"
     
     # 2. Move the binary to the Homebrew bin location
-    bin.install ".build/release/vaporgen"
+    bin.install ".build/release/vgen"
   end
 
   test do
     # Verify it works
-    system "#{bin}/vaporgen", "--help"
+    system "#{bin}/vgen", "--help"
   end
 end
